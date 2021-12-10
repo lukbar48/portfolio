@@ -12,17 +12,19 @@ import Footer from 'components/templates/Footer/Footer';
 
 function App() {
   return (
-    <Router basename={process.env.PUBLIC_URL}>
-      <ThemeProvider theme={theme}>
-        <GlobalStyle />
-        <Navbar />
-        <Header />
-        <About />
-        <Projects />
-        <Tech />
-        <Footer />
-      </ThemeProvider>
-    </Router>
+    <div className="App">
+      <Router basename={process.env.PUBLIC_URL}>
+        <ThemeProvider theme={theme}>
+          <GlobalStyle />
+          <Navbar />
+          <Header />
+          <About />
+          <Projects />
+          <Tech />
+          <Footer />
+        </ThemeProvider>
+      </Router>
+    </div>
   );
 }
 

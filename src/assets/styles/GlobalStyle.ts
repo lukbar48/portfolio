@@ -23,4 +23,8 @@ export const GlobalStyle = createGlobalStyle`
   a, button {
     font-family: 'Roboto', sans-serif;
   }
+
+  .App {
+    background-color: #121212;
+  }
 `;
