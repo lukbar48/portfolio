@@ -11,7 +11,7 @@ const Project1 = () => {
     <Wrapper>
       <Text>
         <h2>DIETMASTER</h2>
-        <p>Tool to manage patients for dietitian</p>
+        <h3>Tool to manage patients for dietitian</h3>
       </Text>
       <ImgMain>
         <img src={desktop1} alt="dietmaster" />
@@ -22,10 +22,10 @@ const Project1 = () => {
       </ImgDetails>
       <Links>
         <Button backgroundColor='transparent' width='120px' height='40px'>
-          <ButtonLink to="https://lukbar48.github.io/dietmaster/">Details</ButtonLink>
+          <a href="https://github.com/lukbar48/dietmaster/" rel="noreferrer" target="_blank">Details</a>
         </Button>
         <Button backgroundColor='transparent' width='120px' height='40px'>
-          <ButtonLink to="https://lukbar48.github.io/dietmaster/">Live</ButtonLink>
+          <a href="https://lukbar48.github.io/dietmaster/" rel="noreferrer" target="_blank">Live</a>
         </Button>
       </Links>
     </Wrapper>

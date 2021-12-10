@@ -9,10 +9,10 @@ import { ImgMain, ImgDetails, Links, Text, Wrapper } from 'components/Project1/P
 
 const Project2 = () => {
   return (
-    <Wrapper style={{backgroundColor: '#1ab3ff'}}>
+    <Wrapper style={{backgroundColor: '#FF8200'}}>
       <Text>
         <h2>ŻYWIENIE NA TAK</h2>
-        <p>Website for dietitian</p>
+        <h3>Website for dietitian</h3>
       </Text>
       <ImgMain>
         <img src={desktop1} alt="zywienienatak" />
@@ -24,10 +24,10 @@ const Project2 = () => {
       </ImgDetails>
       <Links>
         <Button backgroundColor="transparent" width="120px" height="40px">
-          <ButtonLink to="https://lukbar48.github.io/dietmaster/">Details</ButtonLink>
+          <a href="https://github.com/lukbar48/zywienie-website/" rel="noreferrer" target="_blank">Details</a>
         </Button>
         <Button backgroundColor="transparent" width="120px" height="40px">
-          <ButtonLink to="https://lukbar48.github.io/dietmaster/">Live</ButtonLink>
+          <a href="https://lukbar48.github.io/zywienie-website/" rel="noreferrer" target="_blank">Live</a>
         </Button>
       </Links>
     </Wrapper>

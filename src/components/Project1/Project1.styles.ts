@@ -20,17 +20,20 @@ export const Wrapper = styled.div`
 
 export const Text = styled.div`
   width: 100%;
+  color: ${({ theme }) => theme.colors.bgcmain};
+  font-size: 1rem;
 
   h2 {
     color: ${({ theme }) => theme.colors.bgcmain};
-    font-size: 1rem;
+    font-size: ${({ theme }) => theme.fontSizes.l};
     padding-bottom: 20px;
+    letter-spacing: 1px;
   }
 
-  p {
+  h3 {
     color: ${({ theme }) => theme.colors.bgcmain};
-    font-weight: 500;
-    font-size: 2rem;
+    font-weight: 700;
+    font-size: ${({ theme }) => theme.fontSizes.xxl};
   }
 `;
 
@@ -55,6 +58,15 @@ export const ImgMain = styled.div`
     width: 250px;
     transform: rotate(90deg);
   }
+
+  .mobileMain {
+    position: absolute;
+    height: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 0;
+  }
 `;
 
 export const ImgDetails = styled.div`
@@ -69,7 +81,7 @@ export const ImgDetails = styled.div`
   img {
     width: 100%;
     max-width: 400px;
-    border: 1px solid black;
+    border-radius: 7px;
   }
 `;
 
@@ -78,4 +90,10 @@ export const Links = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
+
+  a {
+    color: black;
+    text-decoration: none;
+    border-radius: 50%;
+  }
 `;

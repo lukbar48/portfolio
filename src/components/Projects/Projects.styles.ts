@@ -31,3 +31,13 @@ export const Wrapper = styled.div`
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
   }
 `;
+
+export const ProjectsWrapper = styled.div`
+/* display: flex; */
+/* flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: start;
+  gap: 30px;
+  width: 100%;
+`
