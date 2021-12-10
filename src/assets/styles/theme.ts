@@ -10,6 +10,7 @@ export const theme = {
     border: '#303030'
   },
   fontSizes: {
+    xxxl: '42px',
     xxl: '34px',
     xl: '24px',
     l: '17px',
