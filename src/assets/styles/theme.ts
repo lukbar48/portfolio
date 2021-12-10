@@ -7,6 +7,7 @@ export const theme = {
     fontgrey1: 'rgba(255, 255, 255, 0.87)',
     fontgrey2: 'rgba(255, 255, 255, 0.60)',
     blue1: '#1ab3ff',
+    border: '#303030'
   },
   fontSizes: {
     xxl: '34px',

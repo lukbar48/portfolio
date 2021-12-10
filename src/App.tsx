@@ -8,6 +8,7 @@ import Navbar from 'components/templates/Navbar/Navbar';
 import Projects from 'components/templates/Projects/Projects';
 import Tech from 'components/templates/Tech/Tech';
 import About from 'components/templates/About/About';
+import Footer from 'components/templates/Footer/Footer';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <About />
         <Projects />
         <Tech />
+        <Footer />
       </ThemeProvider>
     </Router>
   );
