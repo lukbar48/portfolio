@@ -1,8 +1,13 @@
 import { ReactNode } from 'react';
 
 export interface IButton { 
-  backgroundColor?: any;
+  backgroundColor?: string;
   children: ReactNode;
-  width?: any;
-  height?: any;
+  width?: string;
+  height?: string;
+}
+
+export interface ITechItem {
+  name: string;
+  img: string;
 }
