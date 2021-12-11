@@ -15,4 +15,14 @@ export const StyledButton = styled.div<IButton>`
   cursor: pointer;
   font-weight: 700;
   font-size: ${({ theme }) => theme.fontSizes.l};
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: ${({ theme }) => theme.colors.bgcmain};
+  }
 `;
