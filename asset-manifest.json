@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6dea0f05.chunk.css",
+    "main.js": "/static/js/main.851c5468.chunk.js",
+    "main.js.map": "/static/js/main.851c5468.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2edb704a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2edb704a.js.map",
+    "static/js/2.4c4241d9.chunk.js": "/static/js/2.4c4241d9.chunk.js",
+    "static/js/2.4c4241d9.chunk.js.map": "/static/js/2.4c4241d9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.6dea0f05.chunk.css.map": "/static/css/main.6dea0f05.chunk.css.map",
+    "static/js/2.4c4241d9.chunk.js.LICENSE.txt": "/static/js/2.4c4241d9.chunk.js.LICENSE.txt",
+    "static/media/dietmasterdesk1.a25087cf.png": "/static/media/dietmasterdesk1.a25087cf.png",
+    "static/media/dietmasterdesk2.113fa9b9.png": "/static/media/dietmasterdesk2.113fa9b9.png",
+    "static/media/dietmasterdesk3.645e9ffb.png": "/static/media/dietmasterdesk3.645e9ffb.png",
+    "static/media/logo.ca0077e5.png": "/static/media/logo.ca0077e5.png",
+    "static/media/me.143a47c4.png": "/static/media/me.143a47c4.png",
+    "static/media/me2.28a29462.jpg": "/static/media/me2.28a29462.jpg",
+    "static/media/weathermobile.e52b4f95.png": "/static/media/weathermobile.e52b4f95.png",
+    "static/media/zywieniedesk1.d618d362.png": "/static/media/zywieniedesk1.d618d362.png",
+    "static/media/zywieniedesk2.3a239609.png": "/static/media/zywieniedesk2.3a239609.png",
+    "static/media/zywieniedesk3.3a2de696.png": "/static/media/zywieniedesk3.3a2de696.png",
+    "static/media/zywieniemobile.d9bc4987.png": "/static/media/zywieniemobile.d9bc4987.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2edb704a.js",
+    "static/js/2.4c4241d9.chunk.js",
+    "static/css/main.6dea0f05.chunk.css",
+    "static/js/main.851c5468.chunk.js"
+  ]
+}
