@@ -13,5 +13,6 @@ export const StyledButton = styled.div<IButton>`
   border-radius: 25px;
   color: ${({ theme }) => theme.colors.bgcmain};
   cursor: pointer;
-  font-weight: 500;
+  font-weight: 700;
+  font-size: ${({ theme }) => theme.fontSizes.l};
 `;

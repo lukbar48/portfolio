@@ -5,6 +5,9 @@ export interface IButton {
   children: ReactNode;
   width?: string;
   height?: string;
+  live?: boolean;
+  href?: string;
+  color?: string;
 }
 
 export interface ITechItem {
