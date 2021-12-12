@@ -1,8 +1,8 @@
 import { ReactNode } from 'react';
 
 export interface IButton { 
-  backgroundColor?: string;
   children: ReactNode;
+  backgroundColor?: string;
   width?: string;
   height?: string;
   live?: boolean;
